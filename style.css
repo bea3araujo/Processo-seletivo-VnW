@@ -9,7 +9,7 @@
 .nav-header{
     display: flex;
     justify-content: space-between;
-    padding: 0 145px;
+    padding: 0 9rem;
     align-items: center;
 }
 .nav-header ul{
@@ -19,7 +19,7 @@
     justify-content: flex-end;
 }
 .nav-header ul li{
-    margin: 0 25px;
+    margin: 0 1.5rem;
     font-size: 25px;
     color: #707070;
 }
@@ -30,12 +30,12 @@
 .apresentation{
     display: flex;
     justify-content: space-between;
-    height: 540px;
+    height: 80vh;
     align-items: center;
 }
 .apresentation-image{
     display:flex;
-    width: 900px;
+    width: 100%;
 }
 .apresentation-image img{
     position: relative;
@@ -44,41 +44,41 @@
 .apresentation-image-bg img{
     position: absolute;
     z-index: 0;
-    width: 430px;
-    height: 480px;
-    top: 150px;
-    left: 788px;
+    width: 27rem;
+    height: 30rem;
+    top: 9rem;
+    left: 49rem;
  }
  .apresentation-image .mustard{
-    width: 400px;
-    height: 300px;
+    width: 25rem;
+    height: 18rem;
  }
  .apresentation-image .olive{
-    width: 280px;
-    height: 176px;
-    top: 132px;
+    width: 17.5rem;
+    height: 11rem;
+    top: 8.25rem;
  }
  .apresentation-text{
-    width: 800px;   
+    width: 100%;   
  }
  .apresentation-text h1{
      color: #000000;
      font-weight: bold;
      font-size: 50px; 
-     margin-left: 140px;
+     margin-left: 8.75rem;
  }
  .apresentation-text h2{
      color:#45CFC9;
      font-weight: bold;
-     margin-left: 140px;
+     margin-left: 8.75rem;
      font-size: 25px;
  }
  .apresentation-text p{
     color:#000000;
     font-weight: lighter;
-    margin-left: 140px;
+    margin-left: 8.75rem;
     font-size: 20px;
-    width: 500px;
+    width: 31.25rem;
  }
  .grid-filters ul{
     color:#000000;
@@ -87,14 +87,14 @@
     list-style: none;
  }
  .grid-filters{
-    width: 1300px;
-    margin-left: 250px;
+    width: 81.25rem;
+    margin-left: 15.7rem;
  }
  .grid-filters ul li{
     font-size: 35px;
     display: flex;
     justify-content: space-between;
-    padding:0 60px 5px 15px;
+    padding:0 3.75rem 0.3rem 1rem;
  }
  .grid-filters li:hover{
     font-weight: bold;
@@ -104,19 +104,18 @@
     display: flex;
     flex-direction: column;
     background-color: #B4F8F7;
-    top: 958px;
-    left: 0px;
+    top: 60rem;
     width: 100%;
-    height: 1520px;
+    height: 95rem;
 }
 .grid-images-box{
     display: flex;
     justify-content: space-between;
-    margin: 80px 100px 45px 100px;
+    margin: 5rem 6.5rem 2.8rem 6.5rem;
 }
 .grid-images-box img{
-    width: 500px;
-    height: 350px;
+    width: 31.5rem;
+    height: 22rem;
 }
 .paragraph-section{
     display: flex;
@@ -127,26 +126,31 @@
 }
 footer{
     background-color: #F8F3A1;
-    height: 300px;
+    height: 21rem;
     display: flex;
     width: 100%;
 }
 .logo-ft{
     display: flex;
     display: inline;
-    padding: 100px 100px 0 145px;
-    width: 120;
-    height: 60px;
+    padding: 6.25rem 6.25rem 0 9rem;
+    width: 7.5rem;
+    height: 3.75rem;
 }
 .tex-ft{
     display: flex;
     display: inline;
 }
 .text-ft h3{
-    margin: 110px 100px 10px 0;
+    margin: 6.8rem 5rem 1rem 7.5rem;
     color: #000000;
     font-weight: bold;
     font-size: 30px;
+}
+.text-ft p{
+    margin: 0 0 0 7rem;
+    font-size: 25pix;
+    color: #000000;
 }
 .links-ft{
     display: flex;
@@ -154,11 +158,7 @@ footer{
     justify-content: space-between;
 }
 .links-ft img{
-    margin: 110px 25px 10px 25px;
-    width: 35px;
-    height: 30px;
-}
-.paragraph-ft{
-    display: flex;
-    flex-direction: column;   
+    margin: 6.8rem 1.5rem 1rem 1rem;
+    width: 2rem;
+    height: 1.8rem;
 }
